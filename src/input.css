@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.digital{
+    @apply flex flex-col justify-center items-center z-20 w-[100%] h-[400px] bg-zinc-900
+
+}
+.menus{
+    @apply hover:text-black hover:bg-white rounded px-3 py-1
+}
+.di{
+    @apply font-bold
+}
+.lorem1{
+    @apply text-xs my-5 text-center
+}
+.img{
+    @apply h-72 w-72 overflow-hidden rounded-md 
+}
+.btn{
+    @apply px-3 py-1 border-2 border-red-800 rounded  hover:bg-red-800 hover:text-white uppercase  cursor-pointer
+}
+.btn2{
+    @apply  cursor-pointer transition
+}
